@@ -1,4 +1,4 @@
-## All tests passed | use with yarn test
+## All tests passed
 
 <div>
   <img src='./src/images/money_Format_Tests.png' height="300px" width="450px">
@@ -14,14 +14,14 @@
 
 ## Params
 
-#### The main function accepts some necessary and optional props
+#### The main function accepts some necessary and optional params
 
-| Necessary Props | Type             | example                    |
-| --------------- | ---------------- | -------------------------- |
-| amount          | string OR number | 123.45, "123.45", "123,45" |
-| country         | string           | "EUR", "USD", "GBP"        |
+| Necessary | Type             | example                    |
+| --------- | ---------------- | -------------------------- |
+| amount    | string OR number | 123.45, "123.45", "123,45" |
+| country   | string           | "EUR", "USD", "GBP"        |
 
-| Optional Props    | Type    | default value |
+| Optional          | Type    | default value |
 | ----------------- | ------- | ------------- |
 | avoidZeroDecimals | boolean | false         |
 | separateDecimals  | boolean | false         |
